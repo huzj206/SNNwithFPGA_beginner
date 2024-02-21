@@ -1,0 +1,4 @@
+wget http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+tar xfvz cifar-10-python.tar.gz
+rm cifar-10-batches-py/data_batch_*
+scp -r cifar-10-batches-py xilinx@192.168.2.99:
